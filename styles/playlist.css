@@ -2,7 +2,7 @@ body{
     margin: 0;
     height: auto;
     text-align: center;
-     background-image: url('img/fondotabla.png');
+     background-image: url('img/fondot.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -158,3 +158,4 @@ footer{
                         color: white;
 
                     }
+
