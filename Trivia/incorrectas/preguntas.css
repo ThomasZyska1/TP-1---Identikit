@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+body{
+    margin: 20px; 
+    text-align: center; 
+    height: auto;
+    background-image: url('../imgtrivia/fondotrivia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#divpreguntas{
+    margin: 40px;
+    padding: 20px;
+    background-color: #EBE9D3;
+    background: linear-gradient(rgba(235, 233, 211, 0.9), rgba(235, 233, 211, 0.9));
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+h1{
+    color: #7D7847;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.imagen{
+    width: 220px; 
+    height: auto;
+    float: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+
+}
+
+#neotrivia{
+    width: 220px; 
+    height: auto; 
+    float: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#ysytrivia{
+    width: 220px; 
+    height: auto; 
+    float: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#littrivia{
+    width: 220px; 
+    height: auto; 
+    float: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#milotrivia{
+    width: 185px; 
+    height: auto; 
+    float: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen:hover, #neotrivia:hover, #ysytrivia:hover, #littrivia:hover, #milotrivia:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagen:active, #neotrivia:active, #ysytrivia:active, #littrivia:active, #milotrivia:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+a.salida{
+display: inline-block; 
+background-color: #7D7847; 
+color: white; 
+padding: 10px 0; 
+text-decoration: none; 
+font-size: 18px; 
+border-radius: 5px; 
+width: 300px; 
+border: 5px solid #7D7847; 
+text-align: center;
+    
+}

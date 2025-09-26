@@ -1,0 +1,54 @@
+body{
+    margin: 20px; 
+    text-align: center; 
+    height: auto;
+    background-image: url('../imgtrivia/fondotrivia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#divincorrectas{
+    margin: 40px;
+    padding: 20px;
+    background-color: #EBE9D3;
+    background: linear-gradient(rgba(235, 233, 211, 0.9), rgba(235, 233, 211, 0.9));
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1{
+    color: #7D7847;
+}
+        span#span1{
+            color: red;
+        }
+
+h2{
+    color: #7D7847;
+}
+
+
+p{
+    color: #7D7847;
+    font-size: 18px;
+}
+
+
+img{
+width: 300px; 
+height: auto;
+}
+
+
+a.salida {
+display: inline-block; 
+background-color: #7D7847; 
+color: white; 
+padding: 10px 0; 
+text-decoration: none; 
+font-size: 18px; 
+border-radius: 5px; 
+width: 300px; 
+border: 5px solid #7D7847; 
+text-align: center;
+}

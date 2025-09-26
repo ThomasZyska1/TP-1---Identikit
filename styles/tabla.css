@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+html{
+    height: 120vh;
+}
+
+body{
+    margin: 0;
+    height: auto;
+    text-align: center;
+     background-image: url('/img/fondotabla.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#divtabla{
+    margin: 40px auto; 
+    padding: 30px;
+    background: #EBE9D3;
+    max-width: 900px; 
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(rgba(235, 233, 211, 0.9), rgba(235, 233, 211, 0.9));
+}
+
+#titulo{
+    background-color: #7D7847; 
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0; 
+    color: white; 
+    font-size: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tabla{
+    width: 800px; 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    margin: 20px; 
+    width: auto;
+}
+
+    #nivelS{
+        background-color: rgb(255, 127, 128); 
+        border: 2px solid black; 
+        padding: 0; 
+        border-bottom: 5px solid grey;
+    }
+        #pS{
+            font-size: 30px; 
+            margin: 0; 
+            text-align: center;
+        }
+    #tdS{
+        border: 2px solid black; 
+        padding: 0; 
+        background-color: rgb(0, 0, 0); 
+        border-bottom: 5px solid grey;
+    }
+
+        #imagenS{
+            width: 130px;
+        }
+
+    #nivelA{
+        background-color: rgb(255, 192, 127); 
+        border: 2px solid black; 
+        padding: 0; 
+        border-bottom: 5px solid grey;
+    }
+        #pA{
+            font-size: 30px; 
+            margin: 0; 
+            text-align: center; 
+            margin: 50px;
+        }
+    
+    #tdA{
+        border: 2px solid black; 
+        padding: 0; 
+        background-color: rgb(0, 0, 0); 
+        border-bottom: 5px solid grey;
+    }
+
+        #imagenWos{
+         width: 140px; 
+         margin-left: 5px; 
+        margin-top: 5px;
+        }
+
+        #imagenMilo{
+            width: 118px; 
+            height: auto; 
+            margin-top: 5px;
+        }
+
+        #imagenA{
+            width: 140px; 
+            height: auto; 
+            margin-top: 5px;
+        }
+
+        #imagenQuevedo{
+            width: 140px; 
+            height: auto; 
+            margin-top: 5px; 
+            margin-right: 8px;
+        }
+
+    #nivelB{
+        background-color: rgb(255, 255, 127); 
+        border: 2px solid black; 
+        padding: 0; 
+        border-bottom: 5px solid grey;
+    }
+        #pB{
+            font-size: 30px; 
+            margin: 0; 
+            text-align: center;
+        }
+
+        #tdB{
+            border: 2px solid black; 
+            padding: 0; 
+            background-color: rgb(0, 0, 0); 
+            border-bottom: 5px solid grey;
+        }
+
+        .imagenB{
+            width: 130px; 
+            margin-left: 5px; 
+            margin-top: 5px;
+        }
+    
+    #nivelC{
+        background-color: rgb(127, 255, 127); 
+        border: 2px solid black; 
+        padding: 0; 
+        border-bottom: 5px solid grey;
+        
+    }
+        #pC{
+            font-size: 30px; 
+            margin: 0; 
+            text-align: center;
+        }
+
+        #tdC{
+            border: 2px solid black; 
+            padding: 0; 
+            background-color: rgb(0, 0, 0); 
+            border-bottom: 5px solid grey;
+        }
+
+        #imagenC{
+            width: 130px; 
+            margin-left: 5px; 
+            margin-top: 5px;
+        }
+
+
+#salidatabla{
+    display: inline-block; 
+    background-color: #7D7847; 
+    color: white; 
+    padding: 10px 0; 
+    text-decoration: none; 
+    font-size: 18px; 
+    border-radius: 5px; 
+    width: 300px; 
+    border: 5px solid #7D7847; 
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#primerimagen{
+    width: 130px; 
+    margin-left: 5px; 
+    margin-top: 5px;
+}
+
+footer{
+    position: fixed;
+    background-color: #EBE9D3;
+    height: 14vh;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #7D7847;
+    padding-bottom: 5vh;
+}
+        footer p{
+            font-size: 17px;
+            margin-top: 15px;
+        }
+
+        footer h3{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        
+        .columna{
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+        }
+        
+                #columnaredes li{
+                    list-style: none;
+                    text-decoration: none;
+                    text-align: center;
+                    color: inherit;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+        .columna img{
+            width: 30px;
+            height: auto;
+            text-align: left;
+        }
+
+        .lifinal {
+            color: inherit;
+            display: inline;
+            
+        }
+              .lifinal a{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                margin: 2px;
+                background-color: #7D7847; 
+                color: white; 
+                padding: 10px 0; 
+                font-size: 15px;
+                width: 150px; 
+                border-radius: 5px solid;
+                border: 5px solid #7D7847; 
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+                    .lifinal a:hover{
+                        text-decoration: underline;
+                        color: #7D7847;
+                        color: white;
+                    }

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+html{
+    height: 110vh;
+}
+
+#bodyinicio{
+    text-align: center; 
+    margin: 0;
+    height: auto;
+    background-image: url('./imgtrivia/fondotrivia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#divinicio{
+    margin: 40px;
+    padding: 20px;
+    background-color: #EBE9D3;
+    background: linear-gradient(rgba(235, 233, 211, 0.9), rgba(235, 233, 211, 0.9));
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#imageninicio{
+    width: 300px; 
+    height: auto; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+        #imageninicio:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #imageninicio:active{
+            transform: scale(0.95);
+             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+#h1inicio{
+    color: #7D7847;
+    font-family: 'Belanosima', sans-serif; 
+    text-decoration: underline;
+}
+
+#pinicio{
+    color: #7D7847; 
+    font-size: 20px;
+}
+
+
+.finalbody{
+    margin: 40px;
+    text-align: center; 
+    height: auto;
+    background-image: url('./imgtrivia/fondotrivia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#divfinal{
+    margin: 40px;
+    padding: 20px;
+    background-color: #EBE9D3;
+    background: linear-gradient(rgba(235, 233, 211, 0.9), rgba(235, 233, 211, 0.9));
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#h1final{
+    color: #7D7847; 
+}
+
+#h2final{
+    color: #7D7847; 
+    font-size: 20px;
+}
+
+#giffinal{
+    width: 400px; 
+    height: auto;
+}
+
+.salidas{
+    display: inline-block; 
+    background-color: #7D7847; 
+    color: white; 
+    padding: 10px 0; 
+    text-decoration: none; 
+    font-size: 18px; 
+    border-radius: 5px; 
+    width: 300px; 
+    border: 5px solid #7D7847; 
+    text-align: center;
+}
+
+#h2lista{
+    color: #7D7847; 
+    font-size: 20px;
+}
+
+#listafinal{
+    align-items: center;
+    background-color: #EBE9D3;
+    color: #7D7847; 
+    list-style-position: inside;
+    background: linear-gradient(rgba(235, 233, 211, 0.9), rgba(235, 233, 211, 0.9));
+}
+
+#As{
+    text-decoration: none;
+    color: #7D7847;
+}
+
+footer{
+    position: fixed;
+    background-color: #EBE9D3;
+    height: 14vh;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #7D7847;
+    padding-bottom: 5vh;
+}
+        footer p{
+            font-size: 17px;
+            margin-top: 15px;
+        }
+
+        footer h3{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        
+        .columna{
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+        }
+        
+                #columnaredes li{
+                    list-style: none;
+                    text-decoration: none;
+                    text-align: center;
+                    color: inherit;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+        .columna img{
+            width: 30px;
+            height: auto;
+            text-align: left;
+        }
+
+        .lifinal {
+            color: inherit;
+            display: inline;
+            
+        }
+              .lifinal a{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                margin: 2px;
+                background-color: #7D7847; 
+                color: white; 
+                padding: 10px 0; 
+                font-size: 15px;
+                width: 150px; 
+                border-radius: 5px solid;
+                border: 5px solid #7D7847; 
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+                    .lifinal a:hover{
+                        text-decoration: underline;
+                        color: #7D7847;
+                        color: white;
+                    }
